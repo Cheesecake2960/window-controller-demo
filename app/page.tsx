@@ -14,7 +14,6 @@ export default function Home() {
 
   const onClickOpenButton = () => {
     setChildWindow(window.open("about:blank", "_blank", `width=${windowWidth},height=${windowHeight},resizable=no`));
-    setTimeout(moveChildWindow, 1000);
   }
 
   return (
